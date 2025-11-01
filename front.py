@@ -59,7 +59,7 @@ if df is not None:
     with col2:
         bal_stats = analyzer.balance_analysis()
         if bal_stats:
-            st.subheader("Balance Statistics (NumPy Based)")
+            st.subheader("Balance Statistics")
             st.metric("Mean Balance", f"{bal_stats['mean_balance']:.2f}")
             st.metric("Standard Deviation", f"{bal_stats['std_balance']:.2f}")
 
